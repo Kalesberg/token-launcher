@@ -100,4 +100,4 @@ app.post('/deploy', async (req, res) => {
     })
 })
 
-app.listen(3000, () => console.log('Token Launcher App - listening on port 3000'))
+app.listen(config.PORT, () => console.log('Token Launcher App - listening on port ' + config.PORT))
